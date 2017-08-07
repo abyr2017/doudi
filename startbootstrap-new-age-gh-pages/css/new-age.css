@@ -16,6 +16,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
 html,
 body {
   height: 100%;
@@ -38,7 +39,7 @@ hr {
   max-width: 100px;
   margin: 25px auto 0;
   border-width: 1px;
-  border-color: rgba(34, 34, 34, 0.1);
+  border-color: rgba(174,225,230, 0.1);
 }
 hr.light {
   border-color: white;
@@ -60,7 +61,7 @@ p {
 }
 .navbar-default {
   background-color: white;
-  border-color: rgba(34, 34, 34, 0.05);
+  border-color: rgba(174,225,230, 0.05);
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -72,15 +73,15 @@ p {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
-  color: #fdcc52;
+  color: #227F88;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #fcbd20;
+  color: #227F88;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-size: 12px;
-  color: #222222;
+  color: #AEE1E6;
   padding: 8px 10px;
 }
 .navbar-default .nav > li > a {
@@ -91,7 +92,7 @@ p {
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-  color: #222222;
+  color: #AEE1E6;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
@@ -128,22 +129,22 @@ p {
   }
   .navbar-default.affix {
     background-color: white;
-    border-color: rgba(34, 34, 34, 0.1);
+    border-color: rgba(174,225,230, 0.1);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #222222;
+    color: #AEE1E6;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #fdcc52;
+    color: #227F88;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #222222;
+    color: #AEE1E6;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: #227F88;
   }
 }
 header {
@@ -151,11 +152,11 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), #7b4397;
+  background: url("../img/bg-pattern.png"), #227F88;
   /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #227F88, #AEE1E6);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #227F88, #AEE1E6);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
@@ -185,7 +186,8 @@ header .device-container {
   max-width: 300px;
   margin: 0 auto 100px;
 }
-header .device-container .screen img {
+header .device-container .screen  {
+  background: url("https://giphy.com/gifs/sgZ4Gx8MIzDWM/html5") ;
   border-radius: 3px;
 }
 @media (min-width: 768px) {
@@ -370,7 +372,7 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 footer {
-  background-color: #222222;
+  background-color: #AEE1E6;
   padding: 25px 0;
   color: rgba(255, 255, 255, 0.3);
   text-align: center;
@@ -414,9 +416,17 @@ footer ul li a.active {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background-color: #fdcc52;
-  border-color: #fdcc52;
+
 }
+.color:hover,
+.color:active,
+.color:focus{
+  color: white !important;
+  background-color: #B2B8B0 !important;
+  border-color: #B2B8B0 !important;
+
+}
+
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
@@ -430,12 +440,12 @@ footer ul li a.active {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #AEE1E6;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #AEE1E6;
 }
 img::selection {
   color: white;
@@ -446,5 +456,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #222222;
+  webkit-tap-highlight-color: #AEE1E6;
 }

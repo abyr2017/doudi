@@ -45,3 +45,13 @@ function gilphabet(){
               setInterval(volgendefoto, 6000);
 
 }
+
+function bgcolor (){
+  var color = [[#0F2E31,#227F88],[#227F88,#AEE1E6],[#AEE1E6,#B2B8B0],[#190F31,#B2B8B0]]
+  var bg-primary = document.getElementByClassName("bg-primary");
+  function changeColor() {
+  var randomColor = Math.floor(Math.random() * color.length);
+  var colory = color[randomColor];
+bg-primary.style.background.-webkit-linear-gradient= (colory[0] ,colory[1]);
+}
+}

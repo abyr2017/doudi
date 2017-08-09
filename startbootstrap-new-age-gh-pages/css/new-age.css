@@ -90,6 +90,10 @@ p {
   letter-spacing: 2px;
   font-size: 11px;
 }
+.font-co > li > a {
+  color :  !important ;
+}
+
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   color: #AEE1E6;
@@ -152,13 +156,17 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
+    color: white;
+
+}
+header .bg-color{
   background: url("../img/bg-pattern.png"), #227F88;
   /* fallback for old browsers */
   background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #227F88, #AEE1E6);
   /* Chrome 10-25, Safari 5.1-6 */
   background: url("../img/bg-pattern.png"), linear-gradient(to left, #227F88, #AEE1E6);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: white;
+
 }
 header .header-content {
   text-align: center;
@@ -229,6 +237,8 @@ section h2 {
 section.download {
   padding: 150px 0;
   position: relative;
+/*  background: linear-gradient (to lef top ,#0F2E31,#227F88)!important;*/
+}
 }
 section.download h2 {
   margin-top: 0;
@@ -286,8 +296,8 @@ section.features .feature-item h3 {
 }
 section.features .feature-item i {
   font-size: 80px;
-  background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  background: -webkit-linear-gradient(to left, #AEE1E6, #227F88);
+  background: linear-gradient(to left, #AEE1E6, #227F88);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -395,9 +405,10 @@ footer ul li a.active {
   text-decoration: none;
 }
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  /*background: #fdcc52;*/
+
+  background: -webkit-linear-gradient(to left, #227F88 , #AEE1E6);
+  background: linear-gradient(to left, #227F88 , #AEE1E6);
 }
 .text-primary {
   color: #fdcc52;
@@ -422,8 +433,8 @@ footer ul li a.active {
 .color:active,
 .color:focus{
   color: white !important;
-  background-color: #B2B8B0 !important;
-  border-color: #B2B8B0 !important;
+  background-color: #227F88 !important;
+  border-color: #227F88 !important;
 
 }
 

@@ -45,7 +45,7 @@
 		width: 100%; height: 100%;
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
-		background-image: url("macbook/macbook.png");
+		/*background-image: url("macbook/macbook.png");abyr*/
 	}
 
 		.device-mockup > .device > .screen {
@@ -78,7 +78,7 @@
 }
 
 .device-mockup.imac > .device {
-	background-image: url("imac/imac.png");
+	/*background-image: url("imac/imac.png");abyr*/
 }
 
 .device-mockup.imac > .device > .screen {

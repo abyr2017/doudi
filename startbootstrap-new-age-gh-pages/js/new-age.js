@@ -29,3 +29,19 @@
     })
 
 })(jQuery); // End of use strict
+
+
+function gilphabet(){
+  var giph_screen=document.getElementById("giph_screen");
+              var currentPos = 0;
+              var images = ["https://giphy.com/embed/vKOdOyAswhLSU","https://giphy.com/embed/kcjekKP2F4L9C"]
+
+              function volgendefoto() {
+                  if (++currentPos >= images.length) currentPos = 0;
+                  giph_screen.src = images[currentPos];
+                  giph_screen.src.size = cover ;
+              }
+
+              setInterval(volgendefoto, 6000);
+
+}

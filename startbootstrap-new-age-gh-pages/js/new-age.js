@@ -42,7 +42,7 @@ function gilphabet(){
                   giph_screen.src.size = cover ;
               }
 
-              /*setInterval(volgendefoto, 8000);*/
+              setInterval(volgendefoto, 10000);
 
 }
 

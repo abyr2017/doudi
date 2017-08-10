@@ -364,10 +364,13 @@ section.contact h2 i {
   border-color: white;
   border-style: solid;
 }
+.butt:hover{
+
+}
 section.contact ul.list-social {
   margin-bottom: 0;
 }
-section.contact ul.list-social li a {
+footer > ul.list-social li a {
   display: block;
   height: 80px;
   width: 80px;
@@ -376,10 +379,26 @@ section.contact ul.list-social li a {
   border-radius: 100%;
   color: white;
 }
-section.contact ul.list-social li.social-twitter a {
+.map-responsive{
+  padding : 0px;
+  margin :0px;
+  height: 30% ;
+}
+
+.map-responsive >iframe{
+  height :200%;
+  width : 100% ;
+  position: abslotute ;
+  opacity: 0.7;
+  padding: 0px;
+  margin :0px;
+}
+
+
+footer > ul.list-social li.social-twitter a {
   background-color: #1da1f2;
 }
-section.contact ul.list-social li.social-twitter a:hover {
+footer > ul.list-social li.social-twitter a:hover {
   background-color: #0d95e8;
 }
 section.contact ul.list-social li.social-facebook a {

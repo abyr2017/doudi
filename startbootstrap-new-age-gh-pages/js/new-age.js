@@ -42,11 +42,11 @@ function gilphabet(){
                   giph_screen.src.size = cover ;
               }
 
-              setInterval(volgendefoto, 6000);
+              /*setInterval(volgendefoto, 8000);*/
 
 }
 
-function bgcolor (){
+/*function bgcolor (){
   var color = [[#0F2E31,#227F88],[#227F88,#AEE1E6],[#AEE1E6,#B2B8B0],[#190F31,#B2B8B0]]
   var bg-primary = document.getElementByClassName("bg-primary");
   function changeColor() {
@@ -54,4 +54,4 @@ function bgcolor (){
   var colory = color[randomColor];
 bg-primary.style.background.-webkit-linear-gradient= (colory[0] ,colory[1]);
 }
-}
+}*/

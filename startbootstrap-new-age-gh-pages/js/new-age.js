@@ -46,6 +46,14 @@ function gilphabet(){
 
 }
 
+function contact (){
+  getElementsByTagName('body')
+}
+
+
+
+
+
 /*function bgcolor (){
   var color = [[#0F2E31,#227F88],[#227F88,#AEE1E6],[#AEE1E6,#B2B8B0],[#190F31,#B2B8B0]]
   var bg-primary = document.getElementByClassName("bg-primary");

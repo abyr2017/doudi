@@ -343,6 +343,7 @@ section.cta .overlay {
   top: 0;
   left: 0;
 }
+
 section.contact {
   text-align: center;
 }
@@ -396,7 +397,8 @@ footer > ul.list-social li a {
 
 
 footer {
-  background-color: #AEE1E6;
+  background: -webkit-linear-gradient(to left, #AEE1E6, #227F88);
+  background: linear-gradient(to left, #AEE1E6, #227F88);
   /*padding: 25px 0;*/
   color: white;
   text-align: center;
@@ -418,11 +420,18 @@ footer ul li a:active,
 footer ul li a.active {
   text-decoration: none;
 }*/
-.bg-primary {
+.bg-primary ,.backy {
   /*background: #fdcc52;*/
 
   background: -webkit-linear-gradient(to left, #227F88 , #AEE1E6);
   background: linear-gradient(to left, #227F88 , #AEE1E6);
+}
+.backy{
+  opacity: 0.5 ;
+
+}
+.off{
+background-color: transparent ;
 }
 .text-primary {
   color: #fdcc52;
@@ -482,4 +491,127 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #AEE1E6;
+}
+
+
+
+/*--------------------------------------------------------------------------------------popup_form*/
+@import "http://fonts.googleapis.com/css?family=Raleway";
+/*----------------------------------------------
+CSS settings for HTML div Exact Center
+------------------------------------------------*/
+#abc {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+padding-left:40%;
+padding-top: 10%;
+
+overflow:auto
+}
+.formy{
+
+  color: black !important;
+}
+.closy {
+  text-align: right !important;
+  margin-right:-12%;
+  margin-top: -8%;
+}
+.formy >i#close {
+  color : #FF0000 !important;
+position:absolute;
+/*right:-14px;
+top:-14px;*/
+
+cursor:pointer
+}
+.formy >div#popupContact {
+position:absolute;
+left:50%;
+top:17%;
+margin-left:-202px;
+
+font-family:'Raleway',sans-serif
+}
+.formy form {
+max-width:350px;
+min-width:250px;
+padding:10px 10px;
+border:2px solid gray;
+border-radius:10px;
+/*font-family:raleway;*/
+background-color:#fff
+}
+.formy p {
+margin-top:30px
+}
+.formy h2 {
+  /*background: -webkit-linear-gradient(to left, #AEE1E6, #227F88);
+  background: linear-gradient(to left, #AEE1E6, #227F88);padding:20px 35px;*/
+margin:-10px -50px;
+text-align:center;
+border-radius:10px 10px 0 0
+}
+.formy hr {
+margin:10px -50px;
+border:0;
+border-top:1px solid #ccc
+}
+.formy input[type=text] {
+width:82%;
+padding:10px;
+margin-top:10px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+/*font-family:raleway*/
+}
+
+.formy textarea {
+
+
+width:82%;
+height:95px;
+padding:10px;
+resize:none;
+margin-top:10px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+/*font-family:raleway;*/
+margin-bottom:30px
+}
+.formy #submit {
+text-decoration:none;
+width:100%;
+text-align:center;
+display:block;
+background: -webkit-linear-gradient(to left, #AEE1E6, #227F88);
+background: linear-gradient(to left, #AEE1E6, #227F88);
+color:#fff;
+border:1px solid white;
+padding:10px 0;
+font-size:20px;
+cursor:pointer;
+border-radius:5px
+}
+/*.formy span {
+color:red;
+font-weight:700
+}*/
+.formy button {
+width:10%;
+height:45px;
+border-radius:3px;
+background-color:#cd853f;
+color:#fff;
+font-family:'Raleway',sans-serif;
+font-size:18px;
+cursor:pointer
 }

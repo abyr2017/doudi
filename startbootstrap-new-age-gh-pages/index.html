@@ -201,7 +201,32 @@
         <div class="container">
 
     <div class="">
-        <h2>Feel free to get in touch <a href="#" style="color:white" onclick="contact();"><i class="fa fa-comments-o " aria-hidden="true"></i></a></h2>
+        <h2>Feel free to get in touch <a href="#" style="color:white" id="popup" onclick="div_show()"><i class="fa fa-comments-o " aria-hidden="true"></i></a></h2>
+
+    </div>
+    <div class="formy" style="overflow:hidden">
+      <div id="abc">
+        <!-- Popup Div Starts Here -->
+        <div id="popupContact">
+          <!-- Contact Us Form -->
+          <form action="#" id="form" method="post" name="form">
+            <div class="closy">
+              <i  id="close" class="fa fa-times-circle fa-2x" onclick ="div_hide()" style="color:#f7562a"></i>
+            </div>
+
+            <h2>Contact Us</h2>
+            <hr>
+            <label for="name">name </label>
+            <input id="name" name="name" placeholder="Name" type="text">
+            <label for="email">email</label>
+            <input id="email" name="email" placeholder="Email" type="text">
+            <label for="msg">massage</label>
+            <textarea id="msg" name="message" placeholder="Message"></textarea>
+            <a href="javascript:%20check_empty()" id="submit">Send</a>
+          </form>
+        </div>
+        <!-- Popup Div Ends Here -->
+      </div>
 
     </div>
             <div style="margin-top:2%">

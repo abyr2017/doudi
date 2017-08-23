@@ -8,22 +8,22 @@ line=one;
 for in=2:26
    line=horzcat(line,zero);
 end
-mat=line;
+target_mat=line;
 
 for p=2:26
     line=[];
-    f=p-1;
-    d=p+1;
-    for l=1:f
+    for l=1:(p-1)
         line=horzcat(line,zero);
     end
     line=horzcat(line,one);
-    l
-    for k=d:26
-        k
-        line=horzcat(line,zero)
+    
+    for k=(p+1):26
+        
+        line=horzcat(line,zero);
     end
-    mat=vertcat(mat,line);
+    target_mat=vertcat(target_mat,line);
 end
+
+
         
   

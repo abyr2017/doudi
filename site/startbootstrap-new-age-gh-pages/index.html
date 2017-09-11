@@ -9,15 +9,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>New Age - Start Bootstrap Theme</title>
+    <title>IdentOwl Project</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="css/lato.css" rel="stylesheet">
+    <link href="css/Catamaran.css" rel="stylesheet">
+    <link href="css/Muli.css" rel="stylesheet">
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
@@ -45,17 +45,19 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">DouDi ProjeCt</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Ident<span style="color:#FF8000;font-size: 25px">Owl</span> ProjeCt</a>
+				<img style="height:70px; margin-bottom:-15px;margin-right:-50px" src="img/logo.png" alt=""/>
+				
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right font-co">
                     <li>
-                        <a class="page-scroll" href="#download">Get DouDi</a>
+                        <a class="page-scroll" href="#download">Home</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#features">About DouDi</a>
+                        <a class="page-scroll" href="#features">About Us</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -74,7 +76,8 @@
                 <div class="col-sm-7">
                     <div class="header-content">
                         <div class="header-content-inner">
-                            <h1>DouDi ProjeCt comes with a new touch of hope because the eyes are useless when the minds are blind !</h1>
+                           <h1>Welcome to Our <span>Ident<span style="color:#FF8000;font-size: 50px">Owl</span> Website!</h1>
+	                    <h2>IdentOwl ProjeCt comes with a new touch of hope because the eyes are useless when the minds are blind ! </h2>
                             <a href="#download" class=" color btn btn-outline btn-xl page-scroll ">Start Now for Free!</a>
                         </div>
                     </div>
@@ -82,12 +85,9 @@
                 <div class="col-sm-5">
                     <div class="device-container">
                         <div class="device-mockup iphone6_plus portrait white">
-                            <div class="device">
+                            <div class="mydevice">
                                 <div class="screen" style=" padding-left = 0px ; padding-right = 0px">
-                                  <iframe  id = "giph_screen"  onload="gilphabet();" src="https://giphy.com/embed/vKOdOyAswhLSU" width="403" height="470" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/vKOdOyAswhLSU"></a></p>
-                                <div class="button">
-                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                                </div>
+                                  <img  id = "giph_screen" src="img/giphy.gif" width="403" height="470" frameBorder="0" class="giphy-embed" allowFullScreen></img>
                             </div>
                         </div>
                     </div>
@@ -100,80 +100,106 @@
     <section id="download" class="download bg-primary  text-center" onload="bgcolor();">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h2 class="section-heading">Discover what all the buzz is about!</h2>
-                    <p>Our app is available now for free trial ! It is also an open source app!</p>
-                    <div class="badges">
-                        <a class="badge-link" href="#"><button class="butt"><i class="fa fa-download" aria-hidden="true"></i>Downlaod DouDi</button></a>
-                        <a class="badge-link" href="#"><button class="butt"><i class="fa fa-github-alt" aria-hidden="true"></i>View DouDi source code</button></a>
-                    </div>
+					<div class="wrap-col">
+		            	<h2 class="top-1">Our Product</h2>
+		                <div class="box-3">
+		                	<div class="col-sm-4">
+		                    	<div><img src="img/gif.gif"  style="width:300px; height:200px;" alt="" class="img-border"></div>
+		                        <div>
+									<h3 style="color:#DF0174">Capital Letter Recognition</h3>
+									<p>It would be able to provide appreciable assistance to the blind</p>
+								</div>
+		                    </div>
+		                	<div class="col-sm-4">
+		                    	<div><img src="img/gif chiffre.gif"  style="width:300px; height:200px;" alt="" class="img-border"></div>
+		                        <div>
+								<h3 style="color:#DF0174"> Number Recognition</h3>
+		                        <p>ZIP code, for example, would contain only the characters 0-9. This fact would reduce the number of possible identifications.</p>
+								</div>
+		                    </div>
+		                	<div class="col-sm-4 last">
+		                    	<div><img src="img/gif mi.gif" style="width:300px; height:200px;" alt="" class="img-border"></div>
+		                        <div>
+									<h3 style="color:#DF0174">Lower Case Recognition</h3>
+									<p>This can help us further in automatic mail sorting, automatic processing of administrative files and in other fields.</p>
+								</div>
+		                    </div>
+		                </div>
+					</div>
+					
                 </div>
             </div>
+			<section class="features">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="feature-item">
+							  <i class="fa fa-user-o" aria-hidden="true"></i>
+								<h3>User friendly</h3>
+								<p style="color:black"> Easy to use, no documentation required!</p>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="feature-item">
+								<i class="icon-camera text-primary"></i>
+								<h3>Flexible Use</h3>
+								<p style="color:black">Put an image, video, animation, or anything else in the screen!</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="feature-item">
+								<i class="icon-present text-primary"></i>
+								<h3>Free to Use</h3>
+								<p style="color:black">As always, this theme is free to download and use for any purpose!</p>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="feature-item">
+								<i class="icon-lock-open text-primary"></i>
+								<h3>Open Source</h3>
+								<p style="color:black">Since this theme is MIT licensed, you can use it commercially!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row badges">
+					<div class="col-md-6"><a class="badge-link" style="margin-left:50%;" href="#"><button class="butt"><i  style="margin-right:10px;"  class="fa fa-download" aria-hidden="true"></i>Downlaod IdentOwl</button></a></div>
+					<div class="col-md-6"><a class="badge-link" style="margin-right:50%;" href="#"><button class="butt"><i  style="margin-right:10px;" class="fa fa-github-alt" aria-hidden="true"></i>View IdentOwl source code</button></a></div>
+				</div>
+			</section>
+				
         </div>
     </section>
 
     <section id="features" class="features" >
         <div class="container " >
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="section-heading">
-                        <h2>Unlimited Features, Unlimited Fun</h2>
-                        <p class="text-muted">Check out what you can do with this app theme!</p>
-                        <hr>
-                    </div>
+             <!--   <div class="col-lg-12 text-center">-->
+            <div class="col-sm-7">
+				<div class="wrap-col">
+	            	<h2>About Our Application</h2>
+	                <div class="box-5 right-1">
+	                    <img src="images/gif.gif" alt="" class="img-border fleft">
+	                   	                </div>
+					 <p>Alphabetic recognition refers to the ability to visually recognize letters of the alphabet.  This includes the ability to name each letter and match that letter name with its written form, both upper and lower case, and in both manuscript and cursive.  Alphabet recognition also includes the ability to distinguish between similar looking letters, like C/G, M/W, d/b and p/q.  It is foundational to any alphabetic based language.</p>
+
+				</div>
+            </div>
+            <div class="col-sm-5">
+				<div class="wrap-col">
+	            	<h2>Our Creative Team</h2>
+	                <div class="box-6 top-5">
+	                    <img src="img/rihab.jpg" alt="" class="img-indent img-border" style="width:100px;">
+	                    <p><a href="#" class="link">Rihab Eddahech</a><br> Computer Science Student Engineer with a good technical background in software design and development. Strong teamwork, collaboration and leadership skills. Confident, friendly and easy to get along with.</p>
+	                </div>
+					<div class="box-6 top-6">
+	                    <img src="img/Abir.jpg" alt="" class="img-indent img-border" style="width: 100px;">
+	                    <p><a href="#" class="link">Abyr Barhoumi</a><br> Amet consetetur sadipscing elitrdiam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+	                </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="device-container">
-                        <div class="device-mockup iphone6_plus portrait white">
-                            <div class="device">
-                                <div class="screen" style="background-color:white !important">
-                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                    <iframe src="https://giphy.com/embed/sgZ4Gx8MIzDWM" width="340" height="650" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/csak-sgZ4Gx8MIzDWM"></a></p>                                </div>
-                                <div class="button">
-                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="feature-item">
-                                  <i class="fa fa-user-o" aria-hidden="true"></i>
-                                    <h3>User friendly</h3>
-                                    <p class="text-muted"> Easy to use, no documentation required!</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="feature-item">
-                                    <i class="icon-camera text-primary"></i>
-                                    <h3>Flexible Use</h3>
-                                    <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="feature-item">
-                                    <i class="icon-present text-primary"></i>
-                                    <h3>Free to Use</h3>
-                                    <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="feature-item">
-                                    <i class="icon-lock-open text-primary"></i>
-                                    <h3>Open Source</h3>
-                                    <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -182,21 +208,48 @@
     <section class="cta">
         <div class="cta-content">
             <div class="container">
-                <h2>Stop waiting.<br>Start building.</h2>
-                <a href="#contact" class="btn btn-outline btn-xl page-scroll">Let's Get Started!</a>
+                <h2 style="color:black">Stop waiting.<br>Start building.</h2>
+                <a  style="color:#DF0174"href="#contact" class="btn btn-outline btn-xl page-scroll">Let's Get Started!</a>
             </div>
         </div>
-        <div class="overlay"></div>
     </section>
-
-
-        <section id="contact"class="map-responsive">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.1990613173066!2d10.06157721492327!3d36.81374957994581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd2d96d4a9d6c9%3A0xbbe38a2694938acf!2s%C3%89cole+Nationale+des+Sciences+de+l&#39;Informatique!5e0!3m2!1sfr!2sfr!4v1502373707193" size="cover"  frameborder="0" style="border:0" allowfullscreen></iframe>    </section>
-        </section>
-        <section>
-
-        </section>
-
+<section id="contact" class="features">
+<div class="container">
+		<div class="row">
+        	<div class="col-sm-8">
+				<div class="wrap-col">
+            	<h2>How to Find Us</h2>
+                <div class="map img-border">
+                  <iframe style="width:100%; height:200px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.1990613173066!2d10.06157721492327!3d36.81374957994581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd2d96d4a9d6c9%3A0xbbe38a2694938acf!2s%C3%89cole+Nationale+des+Sciences+de+l&#39;Informatique!5e0!3m2!1sfr!2sfr!4v1502373707193"></iframe>
+                </div>
+                <div class="right-1">
+                	<p class="clr-1 p2" style="margin-top:20px" >Established in 1984, ENSI (the National School of Computer Science) is one of the most prestigious area of ​​engineering school specializing in computer Tunisia.</p>
+					<p>ENSI is a regional class engineering college where teaching and research - with relevance to the practical world as a guiding principle - continue to be its main goal.
+ 
+The mission of the ENSI is to advance knowledge and educate students in science, technology and other fields of study that will best serve Tunisia in the 21st century.
+ 
+The diplomas obtained in ENSI include Engineering degree in Computer Science , Degree of Master of Science and PhD degree in Computer Science .</p>
+				</div>
+				</div>
+            </div>
+            <div class="col-sm-4">
+				<div class="wrap-col">
+            	<h2>Contact Form</h2>
+            	<form id="form" method="post" >
+                    <fieldset>
+                      <div><label><input type="text" value="Name" onBlur="if(this.value=='') this.value='Name'" onFocus="if(this.value =='Name' ) this.value=''"></label></div>
+                      <div><label><input type="text" value="Email" onBlur="if(this.value=='') this.value='Email'" onFocus="if(this.value =='Email' ) this.value=''"></label></div>
+                      <div><label><input type="text" value="Phone" onBlur="if(this.value=='') this.value='Phone'" onFocus="if(this.value =='Phone' ) this.value=''"></label></div>
+                      <div><label><textarea onBlur="if(this.value==''){this.value='Message'}" onFocus="if(this.value=='Message'){this.value=''}">Message</textarea></label></div>
+                      <div class="btns"><a onclick="document.getElementById('form').reset();" class="button">Clear</a><a href="mailto:rihab.eddehech@gmail.com" class="button">Send</a></div>
+                    </fieldset>  
+                  </form> 
+				  </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</section>
     <footer>
         <div class="container">
 
@@ -204,33 +257,9 @@
         <h2>Feel free to get in touch <a href="#" style="color:white" id="popup" onclick="div_show()"><i class="fa fa-comments-o " aria-hidden="true"></i></a></h2>
 
     </div>
-    <div class="formy" style="overflow:hidden">
-      <div id="abc">
-        <!-- Popup Div Starts Here -->
-        <div id="popupContact">
-          <!-- Contact Us Form -->
-          <form action="#" id="form" method="post" name="form">
-            <div class="closy">
-              <i  id="close" class="fa fa-times-circle fa-2x" onclick ="div_hide()" style="color:#f7562a"></i>
-            </div>
-
-            <h2>Contact Us</h2>
-            <hr>
-            <label for="name">name </label>
-            <input id="name" name="name" placeholder="Name" type="text">
-            <label for="email">email</label>
-            <input id="email" name="email" placeholder="Email" type="text">
-            <label for="msg">massage</label>
-            <textarea id="msg" name="message" placeholder="Message"></textarea>
-            <a href="javascript:%20check_empty()" id="submit">Send</a>
-          </form>
-        </div>
-        <!-- Popup Div Ends Here -->
-      </div>
-
     </div>
             <div style="margin-top:2%">
-              <p>&copy; 2017 DouDi ProjeCt. All Rights Reserved.</p>
+              <p>&copy; 2017 IdentOwl ProjeCt. All Rights Reserved.</p>
 
             </div>
         </div>
